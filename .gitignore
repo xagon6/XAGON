@@ -1,0 +1,34 @@
+src/*.exe
+src/XAGON
+src/XAGONd
+src/test_XAGON
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.XAGON
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+XAGON-qt
+XAGON-Qt.app
+
+# Unit-tests
+Makefile.test
+XAGON-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
